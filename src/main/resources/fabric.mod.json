@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "restartadvarsel",
+  "version": "1.0.0",
+  "name": "Restart Advarsel",
+  "description": "Varsler i chat før restart og shutdown",
+  "authors": ["Pat"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.pat.restartadvarsel.RestartAdvarlseMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4"
+  }
+}
