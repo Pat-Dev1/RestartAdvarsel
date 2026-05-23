@@ -1,18 +1,4 @@
-# Gradle
-.gradle/
-build/
-*.jar
-
-# IDE
-.idea/
-.vscode/
-*.iml
-*.iws
-
-# OS
+META-INF/
 .DS_Store
 Thumbs.db
-
-# Minecraft
-.minecraft/
-run/
+*.class
